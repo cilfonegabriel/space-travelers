@@ -1,11 +1,12 @@
 import React from 'react';
 import { Route, Routes, Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { getApiRockets } from './redux/rockets/Rocket';
+import { getApiRockets } from './Redux/rockets/Rocket';
 import Rockets from './Pages/Rockets';
+import Missions from './Pages/Missions';
 import MyProfile from './Pages/MyProfile';
 import './App.css';
-import planet from './images/planet.png';
+import planet from './Img/planet.png';
 
 function App() {
   const dispatch = useDispatch();
