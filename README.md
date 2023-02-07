@@ -130,6 +130,11 @@ You can deploy this project using:
 - LinkedIn: [Gabriel Cilfone](www.linkedin.com/in/gabriel-cilfone/)
 
 
+## 👥 **Joseph Ogbole**
+- GitHub: [@ONJoseph](https://github.com/ONJoseph)
+- Twitter: [@ONJoseph1](https://twitter.com/ONJoseph1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/o-n-joseph-ba8425147/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
