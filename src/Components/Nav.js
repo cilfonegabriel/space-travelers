@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import planet from '../Img/planet.png';
 
 function Nav() {
@@ -9,18 +9,18 @@ function Nav() {
       <h1 className="nav-h1">Space Travelers Hub</h1>
       <ul className="nav-ul">
         <li className="nav-li">
-          <Link to="/">
+          <NavLink to="/">
             Rockets
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-li">
-          <Link to="/missions" />
+          <NavLink to="/missions" />
           Missions
         </li>
         <li className="nav-li">
-          <Link to="/myProfile">
+          <NavLink to="/myProfile">
             My Profile
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
