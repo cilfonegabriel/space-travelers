@@ -55,14 +55,17 @@
   background-color: #484848;
 }
 
-.listLink1, .listLink2, .listLink3 {
+.listLink1,
+.listLink2,
+.listLink3 {
   color: blue;
   text-decoration: none;
 }
+
 .listLink1:focus,
 .listLink2:focus,
 .listLink3:focus {
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 .rocketlist {
@@ -76,7 +79,7 @@
 }
 
 .rocketitem {
-  border: 1px solid rgba(230, 229, 229,0.5);
+  border: 1px solid rgba(230, 229, 229, 0.5);
   gap: 20px;
 }
 
@@ -87,33 +90,33 @@
 
 .reserve {
   background-color: white;
-  width:50px; 
   border: 2px solid gray;
   color: rgb(157, 155, 155);
-  width:20%; 
-  height:15%;
+  width: 20%;
+  height: 15%;
   margin-top: 20px;
   font-size: 15px;
 }
 
 .cancel {
   background-color: blue;
-  color:white;
-  width:20%; 
-  height:15%;
+  color: white;
+  width: 20%;
+  height: 15%;
   font-size: 15px;
   margin-top: 20px;
-  border: none;}
+  border: none;
+}
 
 .active {
-  display:block;
+  display: block;
   background-color: rgb(22, 157, 62);
-  color:white;
+  color: white;
   height: 20px;
   margin-right: 5px;
   align-content: center;
-  }
+}
 
-  .inactive {
-    display:none;
-  }
+.inactive {
+  display: none;
+}
