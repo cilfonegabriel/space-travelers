@@ -1,5 +1,8 @@
-const MyProfile = () => (
-  <h1>Hello MyProfile</h1>
+import MyProfile from '../Components/MyProfile';
+
+const PageMyProfile = () => (
+  <MyProfile />
+
 );
 
-export default MyProfile;
+export default PageMyProfile;
