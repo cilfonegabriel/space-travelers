@@ -1,5 +1,4 @@
 import { configureStore } from '@reduxjs/toolkit';
-
 import rocketsReducer from './rockets/Rocket';
 
 const rootReducer = {
