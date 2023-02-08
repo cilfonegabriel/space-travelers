@@ -1,3 +1,119 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+#flex {
+  display: flex;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 14%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.nav {
+  padding-left: 2%;
+  padding-right: 10%;
+  align-items: center;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+}
+
+.navtitle {
+  font-size: 30px;
+}
+
+.navleft {
+  gap: 18px;
+  align-items: center;
+}
+
+.vert-div1 {
+  width: 0.125rem;
+  height: 1.275rem;
+  margin: 0 0.688rem 0 0.938rem;
+  padding-top: 1.5%;
+  background-color: #484848;
+}
+
+.navlist {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 16px;
+  gap: 11px;
+}
+
+.vert-div2 {
+  width: 0.125rem;
+  height: 1.275rem;
+  margin: 0 0.688rem 0 0.938rem;
+  padding-top: 1.5%;
+  background-color: #484848;
+}
+
+.listLink1, .listLink2, .listLink3 {
+  color: blue;
+  text-decoration: none;
+}
+.listLink1:focus,
+.listLink2:focus,
+.listLink3:focus {
+ text-decoration: underline;
+}
+
+.rocketlist {
+  flex-direction: column;
+  gap: 20%;
+}
+
+.profilediv {
+  gap: 20%;
+  justify-content: center;
+}
+
+.rocketitem {
+  border: 1px solid rgba(230, 229, 229,0.5);
+  gap: 20px;
+}
+
+.rocketright {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reserve {
+  background-color: white;
+  width:50px; 
+  border: 2px solid gray;
+  color: rgb(157, 155, 155);
+  width:20%; 
+  height:15%;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.cancel {
+  background-color: blue;
+  color:white;
+  width:20%; 
+  height:15%;
+  font-size: 15px;
+  margin-top: 20px;
+  border: none;}
+
+.active {
+  display:block;
+  background-color: rgb(22, 157, 62);
+  color:white;
+  height: 20px;
+  margin-right: 5px;
+  align-content: center;
+  }
+
+  .inactive {
+    display:none;
+  }

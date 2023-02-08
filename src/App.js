@@ -6,7 +6,7 @@ import Rockets from './Pages/Rockets';
 import Missions from './Pages/Missions';
 import MyProfile from './Pages/MyProfilepage';
 import './App.css';
-import planet from './Img/planet.png';
+import planet from './Img/planeta.png';
 
 function App() {
   const dispatch = useDispatch();
@@ -22,8 +22,9 @@ function App() {
         </div>
         <ul className="navlist" id="flex">
           <li className="listItem"><Link className="listLink1" to="/">Rockets</Link></li>
+          <div className="vert-div1" />
           <li className="listItem"><Link className="listLink2" to="/Pages/Missions">Missions</Link></li>
-          <div className="vert-div" />
+          <div className="vert-div2" />
           <li className="listItem"><Link className="listLink2" to="/Pages/MyProfilepage">My profile</Link></li>
         </ul>
       </nav>
