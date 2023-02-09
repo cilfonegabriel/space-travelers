@@ -1,9 +1,8 @@
 import React from 'react';
-import { useSelector } from 'react-redux'; // se usa para acceder al estado en el store
+import { useSelector } from 'react-redux'; 
 import RocketItem from './RocketItem';
 
 const RocketsList = () => {
-  // tomo el reducer book del state en el root reducer
   const rockets = useSelector((state) => state.Rockets);
 
   return (
