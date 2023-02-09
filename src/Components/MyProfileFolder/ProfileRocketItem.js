@@ -7,7 +7,7 @@ const ProfileRocketItem = (props) => {
   } = props;
 
   return (
-    <li className="rocket-item" id="flex">
+    <li className="item" id="flex">
       <h2>{name}</h2>
     </li>
 

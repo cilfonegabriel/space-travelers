@@ -1,12 +1,13 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useSelector } from 'react-redux'; // se usa para acceder al estado en el store
 import RocketItem from './RocketItem';
 
 const RocketsList = () => {
+  // tomo el reducer book del state en el root reducer
   const rockets = useSelector((state) => state.Rockets);
 
   return (
-    <div className="container">
+    <div className="profileContainer">
       <ul className="rocketList" id="flex">
         {rockets.map((rocket) => {
           const {

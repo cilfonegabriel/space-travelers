@@ -6,11 +6,10 @@ import ProfileMissionItems from './ProfileMissionItems';
 const MyProfile = () => {
   const rockets = useSelector((state) => state.Rockets);
   const missions = useSelector((state) => state.Missions);
-
   return (
     <div className="profileContainer">
       <div className="profileContent" id="flex">
-        <div className="joinedMissionsSection">
+        <div className="<joinedMissionsSection">
           <h1>My Missions</h1>
           {missions.filter((item) => item.joined === true).length === 0 ? (
             <h2>No Missions Joined</h2>)
@@ -30,9 +29,8 @@ const MyProfile = () => {
                 })}
               </ul>
             )}
-
         </div>
-        <div className="reservedRocketsSection">
+        <div className="<reservedRocketsSection">
           <h1>My rockets</h1>
 
           {rockets.filter((item) => item.reserved === true).length === 0 ? (

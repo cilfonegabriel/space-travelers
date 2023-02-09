@@ -7,7 +7,7 @@ const rocketsUrl = 'https://api.spacexdata.com/v4/rockets';
 
 const rocketsReducer = (state = [], action) => {
   switch (action.type) {
-    case `${GET_DATA}/accomplished`:
+    case `${GET_DATA}/fulfilled`:
       return action.payload;
     case RESERVE_ROCKET:
       return state.map((rocket) => {

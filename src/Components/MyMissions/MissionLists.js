@@ -17,7 +17,7 @@ const MissionLists = () => {
   const missions = useSelector((state) => state.Missions);
 
   return (
-    <div className="container">
+    <div className="profileContainer">
       <table className="table">
         <tr>
           <th className="missionHead">Mission</th>
