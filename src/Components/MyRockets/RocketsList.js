@@ -7,7 +7,7 @@ const RocketsList = () => {
 
   return (
     <div className="container">
-      <ul className="rocketlist" id="flex">
+      <ul className="rocketList" id="flex">
         {rockets.map((rocket) => {
           const {
             id, name, description, flickrImage, reserved,
