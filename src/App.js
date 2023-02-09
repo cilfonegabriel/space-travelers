@@ -1,7 +1,8 @@
 import React from 'react';
 import { Route, Routes, Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { getApiRockets } from './Redux/rockets/Rocket';
+import { getRocketsApi } from './Redux/rockets/Rocket';
+import { getMissionsApi } from './Redux/missions/Mission';
 import Rockets from './Pages/Rockets';
 import Missions from './Pages/Missions';
 import MyProfile from './Pages/MyProfilepage';
@@ -10,7 +11,8 @@ import planet from './Img/planet.png';
 
 function App() {
   const dispatch = useDispatch();
-  dispatch(getApiRockets());
+  dispatch(getRocketsApi());
+  dispatch(getMissionsApi());
 
   return (
 

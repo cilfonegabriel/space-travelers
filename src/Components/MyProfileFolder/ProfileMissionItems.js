@@ -1,21 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ProfileRocketItem = (props) => {
+const ProfileMissionItems = (props) => {
   const {
     name,
   } = props;
 
   return (
-    <li className="rocket-item" id="flex">
+    <li className="profileMissionItems" id="flex">
       <h2>{name}</h2>
     </li>
 
   );
 };
 
-export default ProfileRocketItem;
+export default ProfileMissionItems;
 
-ProfileRocketItem.propTypes = {
+ProfileMissionItems.propTypes = {
   name: PropTypes.string.isRequired,
 };

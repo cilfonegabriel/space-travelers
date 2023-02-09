@@ -7,7 +7,7 @@ const rocketsUrl = 'https://api.spacexdata.com/v4/rockets';
 
 const rocketsReducer = (state = [], action) => {
   switch (action.type) {
-    case `${GET_DATA}/fulfilled`:
+    case `${GET_DATA}/accomplished`:
       return action.payload;
     case RESERVE_ROCKET:
       return state.map((rocket) => {
@@ -24,7 +24,7 @@ const rocketsReducer = (state = [], action) => {
   }
 };
 
-export const getApiRockets = createAsyncThunk(GET_DATA,
+export const getRocketsApi = createAsyncThunk(GET_DATA,
   () => axios.get(rocketsUrl).then((response) => {
     const rocketObj = (response.data).map((rocket) => (
       {
