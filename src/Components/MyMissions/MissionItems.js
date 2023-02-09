@@ -16,14 +16,14 @@ const MissionItems = (props) => {
 
   return (
     <tr>
-      <td className="tablename">{name}</td>
-      <td className="tabledescription">{description}</td>
-      <td className="tablespan">
-        <span className={joined ? 'Activemember' : 'notamember'}>
+      <td className="missionTableName">{name}</td>
+      <td className="missionTableDescription">{description}</td>
+      <td className="missionTableSpan">
+        <span className={joined ? 'missionActiveMember' : 'missionNotAMember'}>
           {joined ? 'Active Member' : 'NOT A MEMBER'}
         </span>
       </td>
-      <td className="tablebutton">
+      <td className="missionTableButton">
         <button type="button" id={id} onClick={onClick} className={joined ? 'Leavemission' : 'Joinmission'}>
           {joined ? 'Leave Mission' : 'Join Mission'}
         </button>
