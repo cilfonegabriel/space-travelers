@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Book Store</b></h3>
+  <h3><b>Space Travelers</b></h3>
 
 </div>
 
@@ -75,7 +75,7 @@
 
 > This project can be used as an example on how objects and list can be used with classes
 To get a local copy up and running, follow these steps.
-- cd Leaderboard
+- cd space travelers
 - npm install
 - npm run start
 
@@ -151,7 +151,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/cilfonegabriel/bookstore/issues).
+Feel free to check the [issues page](https://github.com/cilfonegabriel/space-travelers/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
