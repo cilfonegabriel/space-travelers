@@ -1,5 +1,6 @@
 {
   "name": "space-travelers",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +19,6 @@
     "react-scripts": "5.0.1",
     "react-test-renderer": "^18.2.0",
     "redux": "^4.2.0",
-    "redux-logger": "^3.0.6",
     "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
   },
@@ -27,6 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!@codemirror)/'",
     "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": [
