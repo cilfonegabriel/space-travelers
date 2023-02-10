@@ -1,15 +1,15 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
-import RocketsList from '../Components/MyRockets/RocketsList';
+import MissionList from '../Components/MyMissions/MissionList';
 import '@testing-library/jest-dom';
 import store from '../Redux/configureStore';
 
 describe('Testing page deployment', () => {
-  test('Rocket components matches snapshot', () => {
+  test('Mission components matches snapshot', () => {
     const tree = render(
       <Provider store={store}>
-        <RocketsList />
+        <MissionList />
       </Provider>,
     );
     expect(tree).toMatchSnapshot();

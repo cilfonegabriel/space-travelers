@@ -6,16 +6,19 @@ import ProfileMissionItems from './ProfileMissionItems';
 const MyProfile = () => {
   const rockets = useSelector((state) => state.Rockets);
   const missions = useSelector((state) => state.Missions);
+  const joinedMissions = missions.filter((item) => item.joined === true);
+  const reservedRockets = rockets.filter((item) => item.reserved === true);
+
   return (
     <div className="profileContainer">
       <div className="profileContent" id="flex">
         <div className="<joinedMissionsSection">
-          <h1>My Missions</h1>
-          {missions.filter((item) => item.joined === true).length === 0 ? (
-            <h2>No Missions Joined</h2>)
+          <h2>My Missions</h2>
+          {joinedMissions.length === 0 ? (
+            <h3>No Missions Joined</h3>)
             : (
               <ul className="missionList" id="flex">
-                {missions.filter((item) => item.joined === true).map((mission) => {
+                {joinedMissions.map((mission) => {
                   const {
                     name, id,
                   } = mission;
@@ -31,13 +34,12 @@ const MyProfile = () => {
             )}
         </div>
         <div className="<reservedRocketsSection">
-          <h1>My rockets</h1>
-
-          {rockets.filter((item) => item.reserved === true).length === 0 ? (
-            <h2>No rockets reserved</h2>)
+          <h2>My rockets</h2>
+          {reservedRockets.length === 0 ? (
+            <h3>No rockets reserved</h3>)
             : (
               <ul className="rocketList" id="flex">
-                {rockets.filter((item) => item.reserved === true).map((rocket) => {
+                {reservedRockets.map((rocket) => {
                   const {
                     name, id,
                   } = rocket;
