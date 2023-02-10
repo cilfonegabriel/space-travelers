@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { ReserveRocket } from '../../Redux/rockets/Rocket';
+import { ReserveRocket, CancelReservedRocket } from '../../Redux/rockets/Rocket';
 
 const RocketItem = (props) => {
   const {
@@ -10,35 +10,46 @@ const RocketItem = (props) => {
 
   const dispatch = useDispatch();
 
-  const onClick = () => {
+  const onClickReserve = () => {
     dispatch(ReserveRocket(id));
   };
 
+  const onClickCancel = () => {
+    dispatch(CancelReservedRocket(id));
+  };
+
   return (
-    <div>
-      <li className="rocketItem" id="flex">
-        <img src={flickrImage} alt="Girl in a jacket" width="250" height="250" />
-        <div className="rocketRight" id="flex">
-          <h2>{name}</h2>
-          <div className="spanText" id="flex">
-            <span className={reserved ? 'active' : 'inactive'}>
-              reserved
-            </span>
-            <p>{description}</p>
-          </div>
-          <button type="button" id={id} onClick={onClick} className={reserved ? 'reserve' : 'cancel'}>{reserved ? 'Cancel Reservation' : 'Reserve Rocket'}</button>
+
+    <li className="rocketItem" id="flex">
+      <img src={flickrImage} alt="item rocket" width="250" height="250" />
+      <div className="rocketRight" id="flex">
+        <h2>{name}</h2>
+        <div className="spanText" id="flex">
+          {reserved && <span className="active">reserved</span>}
+          <p>{description}</p>
         </div>
-      </li>
-    </div>
+        {reserved
+          ? <button type="button" id={id} onClick={onClickCancel} className="reserve">Cancel Reserve</button>
+          : <button type="button" id={id} onClick={onClickReserve} className="cancel">Reserve Rocket</button>}
+      </div>
+    </li>
   );
 };
 
 export default RocketItem;
 
 RocketItem.propTypes = {
-  id: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  reserved: PropTypes.bool.isRequired,
-  flickrImage: PropTypes.string.isRequired,
+  id: PropTypes.string,
+  name: PropTypes.string,
+  description: PropTypes.string,
+  reserved: PropTypes.bool,
+  flickrImage: PropTypes.string,
+};
+
+RocketItem.defaultProps = {
+  id: '',
+  name: '',
+  description: '',
+  reserved: false,
+  flickrImage: '',
 };

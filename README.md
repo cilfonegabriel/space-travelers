@@ -30,6 +30,10 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Space Trevelers] <a name="about-project"></a>
+*[SpaceX-project]* a WebApp that shows three pages: rockets, missions and My profile. here, users can reserve rockets and join spacial missions with spaceX company.
+<div align="center">
+
+  <img src="./src/Img/ScreenRockets" alt="bookstore" width="750"  height="auto" />
 
 
 **[Book Store]** Is a react app with a calculator and math quotes.

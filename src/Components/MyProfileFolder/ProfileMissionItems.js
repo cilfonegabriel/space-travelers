@@ -1,21 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ProfileMissionItems = (props) => {
+const ProfileMissionItem = (props) => {
   const {
     name,
   } = props;
 
   return (
-    <li className="profileMissionItems" id="flex">
+    <li className="profMissionitem" id="flex">
       <h2>{name}</h2>
     </li>
 
   );
 };
 
-export default ProfileMissionItems;
+export default ProfileMissionItem;
 
-ProfileMissionItems.propTypes = {
-  name: PropTypes.string.isRequired,
+ProfileMissionItem.propTypes = {
+  name: PropTypes.string,
+};
+
+ProfileMissionItem.defaultProps = {
+  name: '',
 };
