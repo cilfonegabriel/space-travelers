@@ -1,3 +1,4 @@
+/* Add styles */
 .App {
   text-align: center;
 }
@@ -132,6 +133,7 @@
   gap: 20px;
 }
 
+
 .tableName {
   margin: 0;
   font-weight: bold;
@@ -204,3 +206,4 @@
   border: 1px solid rgba(195, 197, 200, 0.7);
   width: 100%;
 }
+

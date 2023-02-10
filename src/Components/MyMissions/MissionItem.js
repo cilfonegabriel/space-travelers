@@ -18,6 +18,7 @@ const MissionItem = (props) => {
       dispatch(LeaveMision(id));
     };
     
+
   return (
     <tbody>
       <tr>
