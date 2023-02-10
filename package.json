@@ -1,5 +1,6 @@
 {
   "name": "space-travelers",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +19,6 @@
     "react-scripts": "5.0.1",
     "react-test-renderer": "^18.2.0",
     "redux": "^4.2.0",
-    "redux-logger": "^3.0.6",
     "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
   },
@@ -26,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "stylelint": "npx stylelint **/*.{css,scss}",
+    "eslint": "npx eslint --fix ."
   },
   "eslintConfig": {
     "extends": [
