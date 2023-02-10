@@ -4,20 +4,20 @@ import { useDispatch } from 'react-redux';
 import { JoinMision, LeaveMision } from '../../Redux/missions/Mission';
 
 const MissionItem = (props) => {
-    const {
-      id, name, description, joined,
-    } = props;
-  
-    const dispatch = useDispatch();
-  
-    const onClickJoin = () => {
-      dispatch(JoinMision(id));
-    };
-  
-    const onClickLeave = () => {
-      dispatch(LeaveMision(id));
-    };
-    
+  const {
+    id, name, description, joined,
+  } = props;
+
+  const dispatch = useDispatch();
+
+  const onClickJoin = () => {
+    dispatch(JoinMision(id));
+  };
+
+  const onClickLeave = () => {
+    dispatch(LeaveMision(id));
+  };
+
   return (
     <tbody>
       <tr>
