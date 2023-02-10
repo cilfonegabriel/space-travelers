@@ -1,4 +1,4 @@
-/* Add styles*/
+/* Add styles */
 .App {
   text-align: center;
 }
@@ -128,11 +128,6 @@
   display: none;
 }
 
-.rocketItem {
-  border: 1px solid rgba(230, 229, 229, 0.5);
-  gap: 20px;
-}
-
 .tableName {
   margin: 0;
   font-weight: bold;
@@ -205,4 +200,3 @@
   border: 1px solid rgba(195, 197, 200, 0.7);
   width: 100%;
 }
-
