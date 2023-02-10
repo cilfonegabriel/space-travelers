@@ -12,7 +12,6 @@ import store from './Redux/configureStore';
 function App() {
   useEffect(() => {
     store.dispatch(getRocketsApi());
-    store.dispatch(getMissionsApi());
   }, []);
 
   return (

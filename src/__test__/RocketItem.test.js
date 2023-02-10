@@ -1,21 +1,23 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
-import ProfileRocketItem from '../Components/MyProfileFolder/ProfileRocketItem';
+import RocketItem from '../Components/MyRockets/RocketItem';
 import '@testing-library/jest-dom';
-import store from '../redux/configureStore';
+import store from '../Redux/configureStore';
 
 const testData = {
+  id: '123456',
   name: 'testRocket',
+  description: 'testDescription',
+  flickrImage: 'testURL',
+  reserved: false,
 };
 
 describe('Testing page deployment', () => {
-  test('ProfileRocketItem component matches snapshot', () => {
+  test('Rocket components matches snapshot', () => {
     const tree = render(
       <Provider store={store}>
-        <ul>
-        <ProfileRocketItem props={testData}/>
-    </ul>
+        <RocketItem props={testData} />
       </Provider>,
     );
     expect(tree).toMatchSnapshot();
