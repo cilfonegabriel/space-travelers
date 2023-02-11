@@ -1,0 +1,202 @@
+/* Add styles */
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#flex {
+  display: flex;
+}
+
+.profileContainer {
+  padding-left: 10%;
+  padding-right: 14%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.nav {
+  padding-left: 2%;
+  padding-right: 10%;
+  align-items: center;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+}
+
+.navtitle {
+  font-size: 30px;
+}
+
+.navleft {
+  gap: 18px;
+  align-items: center;
+}
+
+.vert-div1 {
+  width: 0.125rem;
+  height: 1.275rem;
+  margin: 0 0.688rem 0 0.938rem;
+  padding-top: 1.5%;
+  background-color: #484848;
+}
+
+.navlist {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 16px;
+  gap: 11px;
+}
+
+.vert-div2 {
+  width: 0.125rem;
+  height: 1.275rem;
+  margin: 0 0.688rem 0 0.938rem;
+  padding-top: 1.5%;
+  background-color: #484848;
+}
+
+.listLinkOne,
+.listLinkTwo,
+.listLinkThree {
+  color: blue;
+  text-decoration: none;
+}
+
+.listLinkOne:focus,
+.listLinkTwo:focus,
+.listLinkThree:focus {
+  text-decoration: underline;
+}
+
+.missionList,
+.rocketList {
+  flex-direction: column;
+  border: 1px solid rgba(195, 197, 200, 0.7);
+  width: 100%;
+  margin-top: 20px;
+}
+
+.profileContent {
+  gap: 20%;
+  justify-content: center;
+}
+
+.rocketItem {
+  border: 1px solid rgba(230, 229, 229, 0.5);
+  gap: 20px;
+}
+
+.rocketRight {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reserve {
+  background-color: white;
+  border: 2px solid gray;
+  color: rgb(157, 155, 155);
+  width: 20%;
+  height: 15%;
+  margin-top: 20px;
+}
+
+.cancel {
+  background-color: blue;
+  color: white;
+  width: 20%;
+  height: 15%;
+  font-size: 15px;
+  border: none;
+  margin-top: 10px;
+}
+
+.active {
+  display: block;
+  background-color: rgb(22, 157, 62);
+  color: white;
+  height: 20px;
+  margin-right: 5px;
+  align-content: center;
+}
+
+.inactive {
+  display: none;
+}
+
+.tableName {
+  margin: 0;
+  font-weight: bold;
+  border: 1px solid rgb(157, 155, 155);
+  align-items: flex-start;
+  width: 15%;
+}
+
+.tableDescription {
+  width: 55%;
+  margin: 0;
+  border: 1px solid rgb(212, 211, 211);
+  align-items: flex-start;
+  font-size: 12px;
+}
+
+.tableSpan {
+  padding-left: 40px;
+  border: 1px solid rgb(157, 155, 155);
+}
+
+.tableButton {
+  margin: 0;
+  border: 1px solid rgb(157, 155, 155);
+  align-items: flex-start;
+}
+
+.ActiveMember {
+  background-color: rgb(25, 147, 181);
+  color: white;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 13px;
+}
+
+.notaMember {
+  background-color: rgb(122, 124, 128);
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.LeaveMission {
+  color: rgb(233, 56, 56);
+  background-color: white;
+  width: 80%;
+  height: 30px;
+  font-size: 15px;
+  border: 1px solid rgb(233, 56, 56);
+  margin-left: 10px;
+}
+
+.JoinMission {
+  border: 2px solid rgb(157, 155, 155);
+  width: 80%;
+  height: 30px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.tg-Lax {
+  border: 1px solid rgb(157, 155, 155);
+}
+
+.profrocketitem,
+.profMissionitem {
+  border: 1px solid rgba(195, 197, 200, 0.7);
+  width: 100%;
+}
