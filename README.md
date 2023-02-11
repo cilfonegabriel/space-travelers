@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Book Store</b></h3>
+  <h3><b>Space Travelers</b></h3>
 
 </div>
 
@@ -30,6 +30,10 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Space Trevelers] <a name="about-project"></a>
+*[SpaceX-project]* a WebApp that shows three pages: rockets, missions and My profile. here, users can reserve rockets and join spacial missions with spaceX company.
+<div align="center">
+
+  <img src="./src/Img/ScreenRockets" alt="bookstore" width="750"  height="auto" />
 
 
 **[Book Store]** Is a react app with a calculator and math quotes.
@@ -75,7 +79,7 @@
 
 > This project can be used as an example on how objects and list can be used with classes
 To get a local copy up and running, follow these steps.
-- cd Leaderboard
+- cd space travelers
 - npm install
 - npm run start
 
@@ -151,7 +155,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/cilfonegabriel/bookstore/issues).
+Feel free to check the [issues page](https://github.com/cilfonegabriel/space-travelers/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

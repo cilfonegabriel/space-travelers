@@ -6,8 +6,8 @@ const RocketsList = () => {
   const rockets = useSelector((state) => state.Rockets);
 
   return (
-    <div className="container">
-      <ul className="rocketlist" id="flex">
+    <div className="profileContainer">
+      <ul className="rocketList" id="flex">
         {rockets.map((rocket) => {
           const {
             id, name, description, flickrImage, reserved,
