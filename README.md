@@ -33,7 +33,7 @@
 *[Space Travelers' Hub]* a WebApp that shows three pages: rockets, missions and My profile. here, users can reserve rockets and join spacial missions with spaceX company.
 <div align="center">
 
- ![screenshot](<img src="./src/Img/ScreenRockets.png" alt="Space Travelers'" width="750"  height="auto" />)
+ ![screenshot](./src/Img/ScreenRockets.png)
 
 **Space Travelers' Hub]** Is a react app with three pages: rockets, missions and My profile. here, users can reserve rockets and join spacial missions with spaceX company.
 
