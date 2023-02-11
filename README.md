@@ -29,14 +29,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Space Trevelers] <a name="about-project"></a>
-*[SpaceX-project]* a WebApp that shows three pages: rockets, missions and My profile. here, users can reserve rockets and join spacial missions with spaceX company.
+# 📖 [Space Travelers' Hub] <a name="about-project"></a>
+*[Space Travelers' Hub]* a WebApp that shows three pages: rockets, missions and My profile. here, users can reserve rockets and join spacial missions with spaceX company.
 <div align="center">
 
-  <img src="./src/Img/ScreenRockets" alt="bookstore" width="750"  height="auto" />
+  <img src="./src/Img/ScreenRockets" alt="Space Travelers'" width="750"  height="auto" />
 
 
-**[Book Store]** Is a react app with a calculator and math quotes.
+**Space Travelers' Hub]** Is a react app with three pages: rockets, missions and My profile. here, users can reserve rockets and join spacial missions with spaceX company.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,8 +69,8 @@
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
-- **[See_the_score_list]**
-- **[add_a_score]**
+- **[My Profile section]**
+- **[Add Missions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
